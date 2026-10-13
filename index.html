@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My S3 Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>MySite</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <button id="themeBtn">🌙 Dark Mode</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Deployed with GitHub Actions 🚀</h1>
+    <p>This website is hosted on AWS S3.</p>
+    <button id="counterBtn">Clicked 0 times</button>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 MySite. Built by Sakshi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
